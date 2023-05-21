@@ -1,0 +1,16 @@
+<mvc:View
+          xmlns:mvc="sap.ui.core.mvc"
+          xmlns="sap.m"
+          controllerName="facturas.controller.App">
+
+            <Button text="{i18n>showHelloButtonText}"
+                    press=".onShowHello"/>
+            <Input description="Hola, {/recipient/name}"
+                    value="{/recipient/name}"
+                    liveChange="true"
+                    valueLiveUpdate="true"
+                    width="40%"/>
+                
+            
+    
+</mvc:View>
